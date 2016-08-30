@@ -1,0 +1,21 @@
+<!-- BEGIN: profile -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="well bs-component">
+                <form method="POST" class="form-horizontal" enctype="multipart/form-data" novalidate>
+                    <input type="hidden" name="send" value="1">
+                    <fieldset>
+                        <legend><%profile_title%></legend>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button name="logout" type="submit" class="btn btn-primary">Выход</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: profile -->
