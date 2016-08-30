@@ -1,0 +1,48 @@
+<!-- BEGIN: inc -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="well bs-component">
+                <form method="POST" enctype="multipart/form-data" class="form-horizontal" novalidate>
+                    <fieldset>
+                        <legend>Добавить материал</legend>
+
+                        <div class="form-group">
+                            <label for="textArea" class="col-lg-2 control-label">Текст</label>
+
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="3" id="textArea" placeholder="Введите текст сообщения." name="text" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="visaContent" class="col-lg-2 control-label">Подпись</label>
+                            <div class="col-lg-10">
+                                <input name="user" type="text" class="form-control" id="visaContent" placeholder="<%log%>" style="cursor: auto;  background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat;" autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-10">
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Добавить файл
+                                </button>
+                                <div class="collapse" id="collapseExample">
+                                    <div class="well">
+                                        <input type="file" id="exampleInputFile" name="uploadfile">
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="reset" class="btn btn-default">Сброс</button>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: inc -->

@@ -1,0 +1,5 @@
+        <!-- BEGIN: logo -->
+        <div class="logo">
+                <a href="<%logo_link%>"><img src="<%logo_img%>"></a>
+        </div>
+        <!-- END: logo -->

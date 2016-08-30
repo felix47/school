@@ -1,0 +1,12 @@
+<!-- BEGIN: register -->
+<form class="uk-form" method="POST" action="/login">
+    <fieldset data-uk-margin>
+        <legend><%login_title%></legend>
+        <input type="text" name="login" placeholder="<%log%>" required><br>
+        <input type="password" name="password" placeholder="<%pass%>" required><br>
+        <input type="email" name="email" placeholder="<%email%>" required><br>
+        <input type="hidden" name="enter" value="1">
+        <button type="submit" class="uk-button">Регистрация</button>
+    </fieldset>
+</form>
+<!-- END: register -->

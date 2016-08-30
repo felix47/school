@@ -1,0 +1,40 @@
+<!-- BEGIN: home -->
+<div class="container-fluid">
+    <form method="POST" novalidate>
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- BEGIN: row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="well bs-component">
+                        <h2><a href="?item=<%data.id%>"><%data.title%></a></h2>
+                        <p><%data.text%></p>
+                        <p><a href="<%data.filename%>"><%data.filetitle%></a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- END: row -->
+        </div>
+    </div>
+    </form>
+</div>
+<!-- END: home -->
+
+<!-- BEGIN: material -->
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="well bs-component">
+                            <h2><%data.title%></a></h2>
+                            <p><%data.text%></p>
+                            <p><%data.filetitle%></p>
+                            <button type="button" class="btn btn-primary hidden-print " onclick="window.print()"><span class="glyphicon glyphicon-print"></span> Print Me!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- END: material -->

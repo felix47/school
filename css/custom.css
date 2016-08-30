@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'AleksandraC';
+    src: local('AleksandraCRegular'), url('../fonts/aleksandracregular.woff2') format('woff2'), url('../fonts/aleksandracregular.woff') format('woff'), url('../fonts/aleksandracregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: 'AleksandraC';
+}
+.logo img {
+    width: 140px;
+}
