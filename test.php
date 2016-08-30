@@ -80,6 +80,7 @@ foreach($people as $person) {
 echo '</table>';
 echo '<br>';
 
+
 $movies = array(
     array(
         "title" => "Rear Window",
