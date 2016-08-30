@@ -1,0 +1,72 @@
+<!-- BEGIN: table -->
+<form method="POST" enctype="multipart/form-data">
+    <table class="table table-hover">
+        <!-- BEGIN: notify -->
+        <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Внимание!</strong> <%notify_cont%>
+        </div>
+        <!-- END: notify -->
+        <div class="" style="padding-bottom: 20px;"><a href="/administrator/inc" name="add" class="btn btn-primary">Добавить материал</a></div>
+        <!-- BEGIN: row -->
+        <tr class="row">
+            <td class="col-md-1">
+                <%data.id%>
+            </td>
+            <td class="col-md-2">
+                <%data.title%>
+            </td>
+            <td class="col-md-5">
+                <%data.text%>
+            </td>
+            <td class="col-md-5">
+                <%data.file_title%>
+            </td>
+            <td class="col-md-1">
+                <%data.user%>
+            </td>
+            <td class="1">
+                <%data.date%>
+            </td>
+            <td class="col-md-1">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa<%data.id%>"
+                        data-whatever="@mdo">Редактировать
+                </button>
+                <div class="modal fade" id="exampleModa<%data.id%>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <form method="POST" enctype="multipart/form-data" class="form-horizontal" novalidate>
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="exampleModalLabel"><%data.title%></h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <div class="col-lg-12">
+                                            <textarea class="form-control" rows="12" cols="20" name="updateContent" required><%data.text%></textarea>
+                                        </div>
+                                    <div class="col-md-12" name="updateId" value="<%data.id%>"><%data.id%></div>
+                                        <input type="hidden"  id="visaContent"  name="updateId" value="<%data.id%>" >
+                                    <div class="col-md-12"><%data.user%></div>
+                                    <div class="col-md-12"><%data.date%></div>
+                                </div>
+                                    <button type="submit" class="btn btn-primary">Обновить</button>
+                            </div>
+                        </div>
+                    </div>
+                            </form>
+                    </div>
+                    </div>
+            </td>
+            <!-- BEGIN: del -->
+            <td class="col-md-1">
+                <button type="submit" name="delete" value="<%data.id%>" class="btn btn-primary">Удалить</button>
+            </td>
+            <!-- END: del -->
+        </tr>
+        <!-- END: row -->
+    </table>
+</form>
+<!-- END: table -->

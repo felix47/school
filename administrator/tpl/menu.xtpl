@@ -1,0 +1,37 @@
+        <!-- BEGIN: menu -->
+        <div class="navbar navbar-default">
+         <div class="">
+             <div class="navbar-header">
+                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+             </div>
+          <div class="navbar-collapse collapse" id="navbar-main">
+              <%list_menu%>
+              <form method="POST" class="form-horizontal" enctype="multipart/form-data" novalidate>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/" target="_blank">Сайт</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Пользователь <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/administrator/profile">Профиль</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li style="text-align: center;"><button name="logout" type="submit" class="btn btn-primary">Выход</button></li>
+                      </ul>
+                  </li>
+              </ul>
+              </form>
+            </div>
+         </div>
+         </div>
+        <!-- END: menu -->
+
+        <!-- BEGIN: menu_list -->
+        <ul class="nav navbar-nav">
+            <!-- BEGIN: menu_list -->
+            <li><a class="nav_link" href="<%menu_link.link%>"><%menu_name.title%></a></li>
+            <!-- END: menu_list -->
+        </ul>
+        <!-- END: menu_list -->

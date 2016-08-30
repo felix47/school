@@ -1,0 +1,17 @@
+<!-- BEGIN: home -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="well bs-component">
+<h2><%article%></h2>
+<p>Nullam.</p>
+                <button type="button" class="btn btn-primary btn-lg hidden-print " onclick="window.print()"><span class="glyphicon glyphicon-print"></span> Print Me!</button>
+            </div>
+            </div>
+        </div>
+            </div>
+    </div>
+</div>
+<!-- END: home -->

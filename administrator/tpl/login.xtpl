@@ -1,0 +1,72 @@
+<!-- BEGIN: login -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <!-- BEGIN: notify -->
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <strong>Внимание!</strong> Не правильно введен логин или пароль.
+            </div>
+            <!-- END: notify -->
+            <div class="well bs-component">
+                <form method="POST" class="form-horizontal" id="form">
+                    <input type="hidden" name="send" value="1">
+                    <fieldset>
+                        <legend><%log_title%></legend>
+                        <div class="form-group">
+                            <label for="inputName" class="col-lg-2 control-label">Логин</label>
+
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" maxlength="15" pattern="[A-Za-z0-9]{1,15}"
+                                       id="inputName" placeholder="Логин" autocomplete="off" name="login">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-lg-2 control-label">Пароль</label>
+
+                            <div class="col-lg-10">
+                                <input type="password" class="form-control" id="inputEmail" placeholder="Пароль"
+                                       autocomplete="off" name="password">
+
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Запомнить
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit" class="btn btn-primary" name="enter">Вход</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: login -->
+
+<!-- BEGIN: login_out -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="well bs-component">
+                <form method="POST" class="form-horizontal" id="form">
+                    <input type="hidden" name="send" value="1">
+                    <fieldset>
+                        <legend><%log_title%></legend>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <input type="hidden" name="logout">
+                                <button type="submit" class="btn btn-primary">Выход</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: login_out -->
