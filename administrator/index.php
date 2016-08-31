@@ -57,7 +57,7 @@ if ($Page == 'index') {
         $xtpl->assign('messages', $data['content']);
     }
 }
-elseif($Page == 'documents' . $Page ){
+elseif($Page == '/administrator/documents/category'){
     echo 'hello';
 }
 else {
