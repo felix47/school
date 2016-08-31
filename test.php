@@ -80,7 +80,6 @@ foreach($people as $person) {
 echo '</table>';
 echo '<br>';
 
-
 $movies = array(
     array(
         "title" => "Rear Window",
@@ -107,5 +106,11 @@ echo $movies[2]["director"] . "<br /><br />";
 echo "Вложенный массив, который содержится в первом элементе:<br />";
 print_r($movies[1] );
 echo "<br /><br />";
+
+
+$code = array('Moscow' => '495', 'SPb' => '812', 'Chelyaba' => '351');
+foreach($code as $key=>$val){
+    echo $key . '-' . $val.'<br>';
+}
 
 ?>

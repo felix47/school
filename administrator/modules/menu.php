@@ -9,33 +9,23 @@ function menuParentList($category, $parent)
     else {
         $class = 'dropdown-menu';
     }
-
-    foreach($category[$parent] as $cat){
-        print_r($cat);
-        menuParentList($category, $cat['id']);
-    }
-
-    /*
     $tree = '<ul class="' . $class . '">';
-    foreach ($category[$parent] as $cat) {
-        $tree .= '<li><a class="' . $parent_list . '" href="' . $cat['link'] . '">' . $cat['title'] . '</a>';
+    foreach ($category[$parent] as $key => $cat) {
+        if($key != 0 && array_key_exists($key, $category)){
+            $parent_list = 'dropdown';
+            $parent_link = 'href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"';
+        }
+        else {
+            $parent_link = 'href="' . $cat['link'] . '"';
+        }
+        $tree .= '<li class="' . $parent_list . '"><a ' . $parent_link . '>' . $cat['title'] . '</a>';
         $tree .= menuParentList($category, $cat['id']);
         $tree .= '</li>';
         unset($parent_list);
     }
     $tree .= '</ul>';
-*/
+
     return $tree;
-/*
-    $tree = '<ul>';
-    foreach ($category[$parent] as $cat){
-        $tree .= '<li>' . $cat['title'];
-        $tree .= menuParentList($category, $cat['id']);
-        $tree .= '</li>';
-    }
-    $tree .= '</ul>';
-    return $tree;
-*/
 }
 
 function menu($db) {
