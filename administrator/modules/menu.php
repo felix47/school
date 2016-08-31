@@ -17,6 +17,7 @@ function menuParentList($category, $parent)
         }
         else {
             $parent_link = 'href="' . $cat['link'] . '"';
+            $parent_list = 'none';
         }
         $tree .= '<li class="' . $parent_list . '"><a ' . $parent_link . '>' . $cat['title'] . '</a>';
         $tree .= menuParentList($category, $cat['id']);
