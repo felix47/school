@@ -2,4 +2,5 @@ AddDefaultCharset UTF-8
 RewriteEngine on
 RewriteBase /administrator/
 Options All -Indexes
+RewriteRule ^([a-z]+)/([a-z]+)?$ index.php?mod=$1&area=$2 [L]
 RewriteRule ^([a-z]+)/?$ index.php?mod=$1 [L]

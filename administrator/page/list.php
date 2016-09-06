@@ -1,7 +1,7 @@
 <?php
-function content_documents($db){
+function content_list($db){
     //Вывод тайтла из БД
-    $id_menu = '4';
+    $id_menu = '5';
     $query = mysqli_query($db, "SELECT title FROM menu_admin WHERE id = '$id_menu' LIMIT 1");
     $userdata = mysqli_fetch_assoc($query);
     $result['title'] = $userdata['title'];

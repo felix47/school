@@ -3,3 +3,5 @@ RewriteEngine on
 RewriteBase /
 Options All -Indexes
 RewriteRule ^([a-z]+)/?$ index.php?mod=$1 [L]
+
+

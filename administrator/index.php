@@ -57,9 +57,7 @@ if ($Page == 'index') {
         $xtpl->assign('messages', $data['content']);
     }
 }
-elseif($Page == '/administrator/documents/category'){
-    echo 'hello';
-}
+
 else {
     if (isset($_COOKIE['id']) and isset($_COOKIE['hash'])) {
         $query = mysqli_query($db, "SELECT * FROM users WHERE id = '" . intval($_COOKIE['id']) . "' LIMIT 1");
