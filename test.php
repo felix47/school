@@ -1,116 +1,49 @@
 <?php
-error_reporting(E_ALL);
-session_start();
-include_once ('configuration.php');
 
+// LDAP переменные
+$ldaphost = "pdc1.elstandart.spb.ru";  // Ваш сервер ldap
+$ldapport = 389;                 // Порт вашего сервера ldap
+// используется ldap-привязка
+$ldaprdn  = 'i.v.baranova@elstandart.spb.ru';     // ldap rdn или dn
+$ldappass = '123456';  // ассоциированный пароль
 
-// Задаем переменной данные для подключения к БД
-$db = mysqli_connect(HOST, USER, PASS, DB);
-mysqli_query($db,'SET NAMES UTF8');
+// Соединение с LDAP
+$ldapconn = ldap_connect($ldaphost, $ldapport)
+or die("Невозможно соединиться с $ldaphost");
 
-//Выбираем данные из БД
-$result = mysqli_query($db, "SELECT * FROM  categories");
-//Если в базе данных есть записи, формируем массив
-$a = mysqli_num_rows($result);
-echo $a;
-if (mysqli_num_rows($result) > 0){
-    $category = array();
-//В цикле формируем массив разделов, ключом будет id родительской категории, а также массив разделов, ключом будет id категории
-    while($cat =  mysqli_fetch_assoc($result)){
-        $category_ID[$cat['id']][] = $cat;
-        $category[$cat['parent_id']][$cat['id']] =  $cat;
+// Set some ldap options for talking to
+ldap_set_option($ldapconn, LDAP_OPT_PROTOCOL_VERSION, 3);
+ldap_set_option($ldapconn, LDAP_OPT_REFERRALS, 0);
+
+if ($ldapconn) {
+    // привязка к ldap-серверу
+    $ldapbind = ldap_bind($ldapconn, $ldaprdn, $ldappass);
+
+    if ($ldapbind) {
+        $dn = "dc=elstandart,dc=spb,dc=ru";
+        $attributes = array("*");
+        $filter = "(&(objectCategory=person)(objectClass=user)(userAccountControl:1.2.840.113556.1.4.803:=2))";
+
+        $result = ldap_search($ldapconn,$dn,$filter,$attributes) or die ("Error in search query: ".ldap_error($ldapconn));
+        $data = ldap_get_entries($ldapconn, $result);
+        echo $data["count"]." записей возвращено\n <br />";
+        // SHOW ALL DATA
+        echo '<h1>Dump all data</h1><pre>';
+        //print_r($data);
+        echo '</pre>';
+        ldap_unbind ($ldapconn, $ldaprdn, $ldappass) or die ("Разрыв соединения: ".ldap_error($ldapconn));
+
     }
-}
-function build_tree($category,$parent_id,$only_parent = false){
-    if(is_array($category) and isset($category[$parent_id])){
-        $tree = '<ul>';
-        if($only_parent==false){
-            foreach($category[$parent_id] as $cat){
-                $tree .= '<li>'.$cat['name'].' #'.$cat['id'];
-                $tree .=  build_tree($category,$cat['id']);
-                $tree .= '</li>';
-            }
-        }elseif(is_numeric($only_parent)){
-            $cat = $category[$parent_id][$only_parent];
-            $tree .= '<li>'.$cat['name'].' #'.$cat['id'];
-            $tree .=  build_tree($category,$cat['id']);
-            $tree .= '</li>';
-        }
-        $tree .= '</ul>';
+    else {
+        echo "LDAP-привязка не удалась...<br />";
     }
-    else return null;
-    return $tree;
-}
-echo build_tree($category,0);
+    $info = ldap_first_entry($ldapconn,$sr);
 
-$people = array (
-    array (
-        "Имя" => "Бобров Иван Павлович",
-        "Лет" => 37,
-        "Пол" => "Муж",
-        "Образование" => "Высшее"
-    ),
-    array (
-        "Имя" => "Зайцев Евгений Петрович",
-        "Лет" => 25,
-        "Пол" => "Муж",
-        "Образование" => "Высшее"
-    ),
-    array (
-        "Имя" => "Петренко Алена Ивановна",
-        "Лет" => 19,
-        "Пол" => "Жен",
-        "Образование" => "Среднее"
-    )
-);
-print_r($people);
-// Вывод
-echo '<table border=1 cellpadding=5 style=\'border-collapse:collapse;\'>';
-$tmp = array_keys($people[0]);
-echo '<br>';
-print_r($tmp);
-foreach ($tmp as $key)
-    echo '<th>'.$key.'</th>';
-foreach($people as $person) {
-    echo '<tr>';
-    foreach($person as $key => $value)
-        echo '<td>'.$value.'</td>';
-    echo '</tr>';
-}
-echo '</table>';
-echo '<br>';
+// get it binary-safe.
+    $bin_guid = ldap_get_values_len($ds,$info,"objectguid");
 
-$movies = array(
-    array(
-        "title" => "Rear Window",
-        "director" => "Alfred Hitchcock",
-        "year" => 1954
-    ),
-    array(
-        "title" => "Full Metal Jacket",
-        "director" => "Stanley Kubrick",
-        "year" => 1987
-    ),
-    array(
-        "title" => "Mean Streets",
-        "director" => "Martin Scorsese",
-        "year" => 1973
-    )
-);
-echo "Название первого фильма:<br />";
-echo $movies[0]["title"] . "<br /><br />";
-
-echo "Режисер третьего фильма:<br />";
-echo $movies[2]["director"] . "<br /><br />";
-
-echo "Вложенный массив, который содержится в первом элементе:<br />";
-print_r($movies[1] );
-echo "<br /><br />";
-
-
-$code = array('Moscow' => '495', 'SPb' => '812', 'Chelyaba' => '351');
-foreach($code as $key=>$val){
-    echo $key . '-' . $val.'<br>';
+// convert to hex, bin2hex failed here for me. Unpack() seems to work though.
+    $hex_guid = unpack("H*hex", $bin_guid[0]);
 }
 
 ?>
