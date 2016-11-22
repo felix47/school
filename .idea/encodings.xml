@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/administrator/page/profile.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/administrator/tpl/profile.xtpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/page/inc.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tpl/home.xtpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tpl/inc.xtpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tpl/login.xtpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tpl/table.xtpl" charset="UTF-8" />

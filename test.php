@@ -1,4 +1,9 @@
 <?php
+if($_POST){
+    $a = $_POST['from'];
+    echo $a;
+    exit();
+}
 
 // LDAP переменные
 $ldaphost = "pdc1.elstandart.spb.ru";  // Ваш сервер ldap

@@ -6,9 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
     <script type="text/javascript" src="./js/jQuery.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui.js"></script>
     <link href="./css/bootstrap.css" rel="stylesheet" media="all"></link>
     <link href="./css/custom.css" rel="stylesheet" media="all"></link>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 <header>
@@ -19,41 +19,6 @@
 </div>
 
 </header>
-<script>
-    $( function() {
-        var dateFormat = "mm/dd/yy",
-                from = $( "#from" )
-                        .datepicker({
-                            defaultDate: "+1w",
-                            changeMonth: true,
-                            numberOfMonths: 1
-                        })
-                        .on( "change", function() {
-                            to.datepicker( "option", "minDate", getDate( this ) );
-                        }),
-                to = $( "#to" ).datepicker({
-                    defaultDate: "+1w",
-                    changeMonth: true,
-                    numberOfMonths: 1
-                })
-                        .on( "change", function() {
-                            from.datepicker( "option", "maxDate", getDate( this ) );
-                        });
-
-        function getDate( element ) {
-            var date;
-            try {
-                date = $.datepicker.parseDate( dateFormat, element.value );
-            } catch( error ) {
-                date = null;
-            }
-
-            return date;
-        }
-    } );
-</script>
-<div id="from" name="from"></div>
-<div id="to" name="to"></div>
 <%menu%>
 <%login%>
 <%messages%>
