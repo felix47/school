@@ -4,7 +4,6 @@ function content_home($db){
     $query = mysqli_query($db, "SELECT title FROM menu WHERE id = '$id_menu' LIMIT 1");
     $userdata = mysqli_fetch_assoc($query);
     $result['title'] = $userdata['title'];
-
     $xtpl = new XTemplate('./tpl/home.xtpl');
     if(isset($_REQUEST['item'])){
         $query = mysqli_query($db, "SELECT * FROM content WHERE id = '".intval($_REQUEST['item'])."' LIMIT 1");
@@ -19,7 +18,8 @@ function content_home($db){
         }
     }
     else {
-        $Query = mysqli_query($db, 'SELECT * FROM content ORDER BY id DESC');
+        $Query = mysqli_query($db, 'SELECT * FROM content WHERE date_create > "2016-08-19 00:00:00" AND date_create < "2016-08-19 23:59:59"');
+        //$Query = mysqli_query($db, 'SELECT * FROM content ORDER BY id DESC');
         while ($row = mysqli_fetch_assoc($Query)) {
             $xtpl->assign('data', $row);
             $xtpl->parse('home.row');

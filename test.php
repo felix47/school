@@ -29,7 +29,7 @@ if ($ldapconn) {
         echo $data["count"]." записей возвращено\n <br />";
         // SHOW ALL DATA
         echo '<h1>Dump all data</h1><pre>';
-        //print_r($data);
+        print_r($data);
         echo '</pre>';
         ldap_unbind ($ldapconn, $ldaprdn, $ldappass) or die ("Разрыв соединения: ".ldap_error($ldapconn));
 
@@ -37,13 +37,8 @@ if ($ldapconn) {
     else {
         echo "LDAP-привязка не удалась...<br />";
     }
-    $info = ldap_first_entry($ldapconn,$sr);
-
-// get it binary-safe.
-    $bin_guid = ldap_get_values_len($ds,$info,"objectguid");
-
-// convert to hex, bin2hex failed here for me. Unpack() seems to work though.
-    $hex_guid = unpack("H*hex", $bin_guid[0]);
+    $test = ldap_get_values_len($ldapconn , $dn , "objectguid" );
+    var_dump($test);
 }
 
 ?>

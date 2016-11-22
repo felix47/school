@@ -9,6 +9,8 @@
                         <legend><%profile_title%></legend>
                         <div class="form-group">
                             <div class="col-lg-10 col-lg-offset-2">
+                                <input type="checkbox" class="checkbox" id="checkbox" />
+                                <label for="checkbox"></label>
                                 <button name="logout" type="submit" class="btn btn-primary">Выход</button>
                             </div>
                         </div>

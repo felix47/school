@@ -29,7 +29,15 @@ function content_administrator($db)
         }
         else
         {
-            $result['content'] = "Привет, ".$userdata['login'].". Всё работает!";
+            $result['content'] = "Привет, ".$userdata['login'].". Всё работает1!";
+            $global_param['title'] = "Введите свои логин и пароль!";
+            // Подключаем шаблон
+            $xtpl_login = new XTemplate('./tpl/home.xtpl');
+            // Напихиваем в шаблон
+            $xtpl_login->assign('article', $global_param['title']);
+            // Формируем шаблон
+            $xtpl_login->parse('home');
+            $result['content'] = $xtpl_login->text('home');
         }
     }
     elseif(isset($_POST['enter'])){
