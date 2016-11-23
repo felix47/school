@@ -1,1468 +1,1820 @@
 Array
 (
-[count] = 41
+[count] = 346
 [0] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
-)
-
-[0] = objectclass
-[cn] = Array
-(
-[count] = 1
-[0] = Гость
-)
-
-[1] = cn
-[description] = Array
-(
-[count] = 1
-[0] = Встроенная учетная запись для доступа гостей к компьютеру или домену
-)
-
-[2] = description
-[distinguishedname] = Array
-(
-[count] = 1
-[0] = CN=Гость,CN=Users,DC=elstandart,DC=spb,DC=ru
-)
-
-[3] = distinguishedname
-[instancetype] = Array
-(
-[count] = 1
-[0] = 4
-)
-
-[4] = instancetype
-[whencreated] = Array
-(
-[count] = 1
-[0] = 20090813090603.0Z
-)
-
-[5] = whencreated
-[whenchanged] = Array
-(
-[count] = 1
-[0] = 20090813090603.0Z
-)
-
-[6] = whenchanged
-[usncreated] = Array
-(
-[count] = 1
-[0] = 8195
-)
-
-[7] = usncreated
-[memberof] = Array
-(
-[count] = 1
-[0] = CN=Гости,CN=Builtin,DC=elstandart,DC=spb,DC=ru
-)
-
-[8] = memberof
-[usnchanged] = Array
-(
-[count] = 1
-[0] = 8195
-)
-
-[9] = usnchanged
-[name] = Array
-(
-[count] = 1
-[0] = Гость
-)
-
-[10] = name
-[objectguid] = Array
-(
-[count] = 1
-[0] = _!����A�DV��)��
-)
-
-[11] = objectguid
-[useraccountcontrol] = Array
-(
-[count] = 1
-[0] = 66082
-)
-
-[12] = useraccountcontrol
-[badpwdcount] = Array
-(
-[count] = 1
-[0] = 3
-)
-
-[13] = badpwdcount
-[codepage] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[14] = codepage
-[countrycode] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[15] = countrycode
-[badpasswordtime] = Array
-(
-[count] = 1
-[0] = 131220453924417232
-)
-
-[16] = badpasswordtime
-[lastlogoff] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[17] = lastlogoff
-[lastlogon] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[18] = lastlogon
-[pwdlastset] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[19] = pwdlastset
-[primarygroupid] = Array
-(
-[count] = 1
-[0] = 514
-)
-
-[20] = primarygroupid
-[objectsid] = Array
-(
-[count] = 1
-[0] = ���8�c.�+��
-)
-
-[21] = objectsid
-[accountexpires] = Array
-(
-[count] = 1
-[0] = 9223372036854775807
-)
-
-[22] = accountexpires
-[logoncount] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[23] = logoncount
-[samaccountname] = Array
-(
-[count] = 1
-[0] = Гость
-)
-
-[24] = samaccountname
-[samaccounttype] = Array
-(
-[count] = 1
-[0] = 805306368
-)
-
-[25] = samaccounttype
-[objectcategory] = Array
-(
-[count] = 1
-[0] = CN=Person,CN=Schema,CN=Configuration,DC=elstandart,DC=spb,DC=ru
-)
-
-[26] = objectcategory
-[iscriticalsystemobject] = Array
-(
-[count] = 1
-[0] = TRUE
-)
-
-[27] = iscriticalsystemobject
-[dscorepropagationdata] = Array
-(
-[count] = 1
-[0] = 16010101000000.0Z
-)
-
-[28] = dscorepropagationdata
-[count] = 29
-[dn] = CN=Гость,CN=Users,DC=elstandart,DC=spb,DC=ru
+[count] = 0
+[dn] = CN=Администратор,CN=Users,DC=elstandart,DC=spb,DC=ru
 )
 
 [1] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
-)
-
-[0] = objectclass
-[cn] = Array
-(
-[count] = 1
-[0] = krbtgt
-)
-
-[1] = cn
-[description] = Array
-(
-[count] = 1
-[0] = Учетная запись службы KDC
-)
-
-[2] = description
-[distinguishedname] = Array
-(
-[count] = 1
-[0] = CN=krbtgt,CN=Users,DC=elstandart,DC=spb,DC=ru
-)
-
-[3] = distinguishedname
-[instancetype] = Array
-(
-[count] = 1
-[0] = 4
-)
-
-[4] = instancetype
-[whencreated] = Array
-(
-[count] = 1
-[0] = 20090813090859.0Z
-)
-
-[5] = whencreated
-[whenchanged] = Array
-(
-[count] = 1
-[0] = 20090813092419.0Z
-)
-
-[6] = whenchanged
-[usncreated] = Array
-(
-[count] = 1
-[0] = 12320
-)
-
-[7] = usncreated
-[memberof] = Array
-(
-[count] = 1
-[0] = CN=Группа с запрещением репликации паролей RODC,CN=Users,DC=elstandart,DC=spb,DC=ru
-)
-
-[8] = memberof
-[usnchanged] = Array
-(
-[count] = 1
-[0] = 12674
-)
-
-[9] = usnchanged
-[showinadvancedviewonly] = Array
-(
-[count] = 1
-[0] = TRUE
-)
-
-[10] = showinadvancedviewonly
-[name] = Array
-(
-[count] = 1
-[0] = krbtgt
-)
-
-[11] = name
-[objectguid] = Array
-(
-[count] = 1
-[0] = ���2�.�B�t.��d9S
-)
-
-[12] = objectguid
-[useraccountcontrol] = Array
-(
-[count] = 1
-[0] = 514
-)
-
-[13] = useraccountcontrol
-[badpwdcount] = Array
-(
-[count] = 1
-[0] = 4
-)
-
-[14] = badpwdcount
-[codepage] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[15] = codepage
-[countrycode] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[16] = countrycode
-[badpasswordtime] = Array
-(
-[count] = 1
-[0] = 129397424842724480
-)
-
-[17] = badpasswordtime
-[lastlogoff] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[18] = lastlogoff
-[lastlogon] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[19] = lastlogon
-[pwdlastset] = Array
-(
-[count] = 1
-[0] = 128946281396406250
-)
-
-[20] = pwdlastset
-[primarygroupid] = Array
-(
-[count] = 1
-[0] = 513
-)
-
-[21] = primarygroupid
-[objectsid] = Array
-(
-[count] = 1
-[0] = ���8�c.�+��
-)
-
-[22] = objectsid
-[admincount] = Array
-(
-[count] = 1
-[0] = 1
-)
-
-[23] = admincount
-[accountexpires] = Array
-(
-[count] = 1
-[0] = 9223372036854775807
-)
-
-[24] = accountexpires
-[logoncount] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[25] = logoncount
-[samaccountname] = Array
-(
-[count] = 1
-[0] = krbtgt
-)
-
-[26] = samaccountname
-[samaccounttype] = Array
-(
-[count] = 1
-[0] = 805306368
-)
-
-[27] = samaccounttype
-[serviceprincipalname] = Array
-(
-[count] = 1
-[0] = kadmin/changepw
-)
-
-[28] = serviceprincipalname
-[objectcategory] = Array
-(
-[count] = 1
-[0] = CN=Person,CN=Schema,CN=Configuration,DC=elstandart,DC=spb,DC=ru
-)
-
-[29] = objectcategory
-[iscriticalsystemobject] = Array
-(
-[count] = 1
-[0] = TRUE
-)
-
-[30] = iscriticalsystemobject
-[dscorepropagationdata] = Array
-(
-[count] = 1
-[0] = 16010101000000.0Z
-)
-
-[31] = dscorepropagationdata
-[count] = 32
-[dn] = CN=krbtgt,CN=Users,DC=elstandart,DC=spb,DC=ru
+[count] = 0
+[dn] = CN=Гость,CN=Users,DC=elstandart,DC=spb,DC=ru
 )
 
 [2] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
+[count] = 0
+[dn] = CN=krbtgt,CN=Users,DC=elstandart,DC=spb,DC=ru
 )
 
-[0] = objectclass
-[cn] = Array
+[3] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Иванова Елена Николаевна
+[0] = darkman@elstandart.spb.ru
 )
 
-[1] = cn
-[sn] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Павленко Алексей,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[4] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Иванова
+[0] = kononov@elstandart.spb.ru
 )
 
-[2] = sn
-[description] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Кононов Владимир Климентьевич,OU=140 - Отдел сертификации систем менеджмента качества,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[5] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = экономист 1 категории
+[0] = natak@elstandart.spb.ru
 )
 
-[3] = description
-[physicaldeliveryofficename] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Коломенская Наталья Георгиевна,OU=160 - Отдел  маркетинга,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[6] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 330 (Р)
+[0] = makaeva@elstandart.spb.ru
 )
 
-[4] = physicaldeliveryofficename
-[telephonenumber] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Макаева Зинаида Ивановна,OU=140 - Отдел сертификации систем менеджмента качества,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[7] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 1032,676-29-72
+[0] = zhuravina@elstandart.spb.ru
 )
 
-[5] = telephonenumber
-[givenname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Журавина Виктория Васильевна,OU=140 - Отдел сертификации систем менеджмента качества,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[8] = Array
+(
+[count] = 0
+[dn] = CN=Герасимова Татьяна Никифоровна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[9] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Елена
+[0] = t.malisheva@elstandart.spb.ru
 )
 
-[6] = givenname
-[distinguishedname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Малышева Татьяна Николаевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[10] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = CN=Иванова Елена Николаевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+[0] = s.v.kirilova@elstandart.spb.ru
 )
 
-[7] = distinguishedname
-[instancetype] = Array
-(
+[0] = mail
 [count] = 1
-[0] = 4
+[dn] = CN=Кирилова Светлана Викторовна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
 )
 
-[8] = instancetype
-[whencreated] = Array
+[11] = Array
 (
-[count] = 1
-[0] = 20090819045004.0Z
-)
-
-[9] = whencreated
-[whenchanged] = Array
-(
-[count] = 1
-[0] = 20160815062901.0Z
-)
-
-[10] = whenchanged
-[displayname] = Array
-(
-[count] = 1
-[0] = Иванова Елена Николаевна
-)
-
-[11] = displayname
-[usncreated] = Array
-(
-[count] = 1
-[0] = 36937
-)
-
-[12] = usncreated
-[memberof] = Array
-(
-[count] = 11
-[0] = CN=Доступ к папке Экономический отдел,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[1] = CN=Доступ к папке Альбом ФС (Электронстандарт),OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[2] = CN=Плановый отдел,OU=Плановый отдел,DC=elstandart,DC=spb,DC=ru
-[3] = CN=Доступ к папке Экономисты,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[4] = CN=Доступ к папке Экономические связи,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[5] = CN=Доступ к папке Планы и Хозрасчет,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[6] = CN=Доступ к папке Аналитика,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[7] = CN=Отчеты для Аскерко,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[8] = CN=Отчеты для Лукицы,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[9] = CN=Пользователи 1С,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[10] = CN=1С Бухгалтерия (Институт),OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-)
-
-[13] = memberof
-[usnchanged] = Array
-(
-[count] = 1
-[0] = 418797616
-)
-
-[14] = usnchanged
-[name] = Array
-(
-[count] = 1
-[0] = Иванова Елена Николаевна
-)
-
-[15] = name
-[objectguid] = Array
-(
-[count] = 1
-[0] = V��33L������
-)
-
-[16] = objectguid
-[useraccountcontrol] = Array
-(
-[count] = 1
-[0] = 66050
-)
-
-[17] = useraccountcontrol
-[badpwdcount] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[18] = badpwdcount
-[codepage] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[19] = codepage
-[countrycode] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[20] = countrycode
-[badpasswordtime] = Array
-(
-[count] = 1
-[0] = 131157128716358750
-)
-
-[21] = badpasswordtime
-[lastlogoff] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[22] = lastlogoff
-[lastlogon] = Array
-(
-[count] = 1
-[0] = 131157159076515000
-)
-
-[23] = lastlogon
-[pwdlastset] = Array
-(
-[count] = 1
-[0] = 128979825579531250
-)
-
-[24] = pwdlastset
-[primarygroupid] = Array
-(
-[count] = 1
-[0] = 513
-)
-
-[25] = primarygroupid
-[objectsid] = Array
-(
-[count] = 1
-[0] = ���8�c.�+�j
-)
-
-[26] = objectsid
-[accountexpires] = Array
-(
-[count] = 1
-[0] = 9223372036854775807
-)
-
-[27] = accountexpires
-[logoncount] = Array
-(
-[count] = 1
-[0] = 1265
-)
-
-[28] = logoncount
-[samaccountname] = Array
-(
-[count] = 1
-[0] = e.n.ivanova
-)
-
-[29] = samaccountname
-[samaccounttype] = Array
-(
-[count] = 1
-[0] = 805306368
-)
-
-[30] = samaccounttype
-[userprincipalname] = Array
-(
-[count] = 1
-[0] = e.n.ivanova@elstandart.spb.ru
-)
-
-[31] = userprincipalname
-[objectcategory] = Array
-(
-[count] = 1
-[0] = CN=Person,CN=Schema,CN=Configuration,DC=elstandart,DC=spb,DC=ru
-)
-
-[32] = objectcategory
-[dscorepropagationdata] = Array
-(
-[count] = 1
-[0] = 16010101000000.0Z
-)
-
-[33] = dscorepropagationdata
 [mail] = Array
 (
 [count] = 1
 [0] = e.ivanova@elstandart.spb.ru
 )
 
-[34] = mail
-[count] = 35
+[0] = mail
+[count] = 1
 [dn] = CN=Иванова Елена Николаевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
 )
 
-[3] = Array
+[12] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
-)
-
-[0] = objectclass
-[cn] = Array
+[mail] = Array
 (
 [count] = 1
-[0] = Ежовская Анастасия Геннадьевна
+[0] = nvp@elstandart.spb.ru
 )
 
-[1] = cn
-[sn] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Пархоменко Наталья Васильевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[13] = Array
+(
+[count] = 0
+[dn] = CN=root,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[14] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Ежовская
+[0] = eichayka@elstandart.spb.ru
 )
 
-[2] = sn
-[givenname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Чайка Елена Игоревна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[15] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Анастасия
+[0] = i.e.novikova@elstandart.spb.ru
 )
 
-[3] = givenname
-[distinguishedname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Новикова Ирина Евгеньевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[16] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = CN=Ежовская Анастасия Геннадьевна,OU=ОПК3,DC=elstandart,DC=spb,DC=ru
+[0] = l.n.mesherova@elstandart.spb.ru
 )
 
-[4] = distinguishedname
-[instancetype] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Мещерова Людмила Николаевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[17] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 4
+[0] = L.P.Rehkolaynen@elstandart.spb.ru
 )
 
-[5] = instancetype
-[whencreated] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Рехколанен Людмила Петровна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[18] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 20090821100306.0Z
+[0] = sprav112@elstandart.spb.ru
 )
 
-[6] = whencreated
-[whenchanged] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Гаврилова Марина Аркадьевна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[19] = Array
+(
+[count] = 0
+[dn] = CN=Кузьмина Лариса Михайловна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[20] = Array
+(
+[count] = 0
+[dn] = CN=Кузнецова Галина Петровна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[21] = Array
+(
+[count] = 0
+[dn] = CN=Аверкина Ирина Львовна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[22] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 20161013110916.0Z
+[0] = snn@elstandart.spb.ru
 )
 
-[7] = whenchanged
-[displayname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Саратова Натилья Николаевна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[23] = Array
+(
+[count] = 0
+[dn] = CN=Обухович Марина Ромуальдовна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[24] = Array
+(
+[count] = 0
+[dn] = CN=Магаровская Светлана Федоровна,OU=Расчетный отдел,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[25] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Ежовская Анастасия Геннадьевна
+[0] = khval@elstandart.spb.ru
 )
 
-[8] = displayname
-[usncreated] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Хвалебнова Татьяна Валентиновна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[26] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 41562
+[0] = l.i.smirnova@elstandart.spb.ru
 )
 
-[9] = usncreated
-[memberof] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Смирнова Любовь Ивановна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[27] = Array
 (
-[count] = 7
-[0] = CN=Доступ к серверу 1С 77 Домен,OU=Группы прав доступа,DC=domen,DC=ru
-[1] = CN=ОПК3,OU=ОПК3,DC=elstandart,DC=spb,DC=ru
-[2] = CN=Доступ к папке ОПК3-Экономист,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[3] = CN=Доступ к папке Экономические связи,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[4] = CN=Регистрация договоров,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[5] = CN=Пользователи 1С,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[6] = CN=1С Бухгалтерия (Институт),OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-)
-
-[10] = memberof
-[usnchanged] = Array
+[mail] = Array
 (
 [count] = 1
-[0] = 427832983
+[0] = n.v.vasileva@elstandart.spb.ru
 )
 
-[11] = usnchanged
-[name] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Васильева Наталья Валерьевна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[28] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Ежовская Анастасия Геннадьевна
+[0] = n.o.alekseeva@elstandart.spb.ru
 )
 
-[12] = name
-[objectguid] = Array
-(
+[0] = mail
 [count] = 1
-[0] = �G��@x�H�X	z9m�u
+[dn] = CN=Алексеева Наталия Олеговна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
 )
 
-[13] = objectguid
-[useraccountcontrol] = Array
+[29] = Array
 (
-[count] = 1
-[0] = 66050
+[count] = 0
+[dn] = CN=Фокина Татьяна Ивановна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
 )
 
-[14] = useraccountcontrol
-[badpwdcount] = Array
+[30] = Array
 (
-[count] = 1
-[0] = 251
-)
-
-[15] = badpwdcount
-[codepage] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[16] = codepage
-[countrycode] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[17] = countrycode
-[badpasswordtime] = Array
-(
-[count] = 1
-[0] = 131208310469104732
-)
-
-[18] = badpasswordtime
-[lastlogoff] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[19] = lastlogoff
-[lastlogon] = Array
-(
-[count] = 1
-[0] = 131208277580823750
-)
-
-[20] = lastlogon
-[pwdlastset] = Array
-(
-[count] = 1
-[0] = 128953225876250000
-)
-
-[21] = pwdlastset
-[primarygroupid] = Array
-(
-[count] = 1
-[0] = 513
-)
-
-[22] = primarygroupid
-[objectsid] = Array
-(
-[count] = 1
-[0] = ���8�c.�+��
-)
-
-[23] = objectsid
-[accountexpires] = Array
-(
-[count] = 1
-[0] = 9223372036854775807
-)
-
-[24] = accountexpires
-[logoncount] = Array
-(
-[count] = 1
-[0] = 7939
-)
-
-[25] = logoncount
-[samaccountname] = Array
-(
-[count] = 1
-[0] = a.g.ezhovskaya
-)
-
-[26] = samaccountname
-[samaccounttype] = Array
-(
-[count] = 1
-[0] = 805306368
-)
-
-[27] = samaccounttype
-[userprincipalname] = Array
-(
-[count] = 1
-[0] = a.g.ezhovskaya@elstandart.spb.ru
-)
-
-[28] = userprincipalname
-[objectcategory] = Array
-(
-[count] = 1
-[0] = CN=Person,CN=Schema,CN=Configuration,DC=elstandart,DC=spb,DC=ru
-)
-
-[29] = objectcategory
-[dscorepropagationdata] = Array
-(
-[count] = 1
-[0] = 16010101000000.0Z
-)
-
-[30] = dscorepropagationdata
-[count] = 31
+[count] = 0
 [dn] = CN=Ежовская Анастасия Геннадьевна,OU=ОПК3,DC=elstandart,DC=spb,DC=ru
 )
 
-[4] = Array
+[31] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
-)
-
-[0] = objectclass
-[cn] = Array
-(
-[count] = 1
-[0] = Фоничева Валентина Павловна
-)
-
-[1] = cn
-[sn] = Array
-(
-[count] = 1
-[0] = Фоничева
-)
-
-[2] = sn
-[givenname] = Array
-(
-[count] = 1
-[0] = Валентина
-)
-
-[3] = givenname
-[distinguishedname] = Array
-(
-[count] = 1
-[0] = CN=Фоничева Валентина Павловна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
-)
-
-[4] = distinguishedname
-[instancetype] = Array
-(
-[count] = 1
-[0] = 4
-)
-
-[5] = instancetype
-[whencreated] = Array
-(
-[count] = 1
-[0] = 20090821105621.0Z
-)
-
-[6] = whencreated
-[whenchanged] = Array
-(
-[count] = 1
-[0] = 20160201121349.0Z
-)
-
-[7] = whenchanged
-[displayname] = Array
-(
-[count] = 1
-[0] = Фоничева Валентина Павловна
-)
-
-[8] = displayname
-[usncreated] = Array
-(
-[count] = 1
-[0] = 41688
-)
-
-[9] = usncreated
-[memberof] = Array
-(
-[count] = 1
-[0] = CN=Отдел 110,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
-)
-
-[10] = memberof
-[usnchanged] = Array
-(
-[count] = 1
-[0] = 371193159
-)
-
-[11] = usnchanged
-[name] = Array
-(
-[count] = 1
-[0] = Фоничева Валентина Павловна
-)
-
-[12] = name
-[objectguid] = Array
-(
-[count] = 1
-[0] = �����D��v9}�
-)
-
-[13] = objectguid
-[useraccountcontrol] = Array
-(
-[count] = 1
-[0] = 66050
-)
-
-[14] = useraccountcontrol
-[badpwdcount] = Array
-(
-[count] = 1
-[0] = 255
-)
-
-[15] = badpwdcount
-[codepage] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[16] = codepage
-[countrycode] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[17] = countrycode
-[badpasswordtime] = Array
-(
-[count] = 1
-[0] = 130988000984106460
-)
-
-[18] = badpasswordtime
-[lastlogoff] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[19] = lastlogoff
-[lastlogon] = Array
-(
-[count] = 1
-[0] = 130987979783208030
-)
-
-[20] = lastlogon
-[pwdlastset] = Array
-(
-[count] = 1
-[0] = 128953257816250000
-)
-
-[21] = pwdlastset
-[primarygroupid] = Array
-(
-[count] = 1
-[0] = 513
-)
-
-[22] = primarygroupid
-[objectsid] = Array
-(
-[count] = 1
-[0] = ���8�c.�+��
-)
-
-[23] = objectsid
-[accountexpires] = Array
-(
-[count] = 1
-[0] = 9223372036854775807
-)
-
-[24] = accountexpires
-[logoncount] = Array
-(
-[count] = 1
-[0] = 5255
-)
-
-[25] = logoncount
-[samaccountname] = Array
-(
-[count] = 1
-[0] = v.p.fonicheva
-)
-
-[26] = samaccountname
-[samaccounttype] = Array
-(
-[count] = 1
-[0] = 805306368
-)
-
-[27] = samaccounttype
-[userprincipalname] = Array
-(
-[count] = 1
-[0] = v.p.fonicheva@elstandart.spb.ru
-)
-
-[28] = userprincipalname
-[objectcategory] = Array
-(
-[count] = 1
-[0] = CN=Person,CN=Schema,CN=Configuration,DC=elstandart,DC=spb,DC=ru
-)
-
-[29] = objectcategory
-[dscorepropagationdata] = Array
-(
-[count] = 1
-[0] = 16010101000000.0Z
-)
-
-[30] = dscorepropagationdata
-[count] = 31
+[count] = 0
 [dn] = CN=Фоничева Валентина Павловна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
 )
 
-[5] = Array
+[32] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
-)
-
-[0] = objectclass
-[cn] = Array
+[mail] = Array
 (
 [count] = 1
-[0] = Заболотская Мария Викторовна
+[0] = 111@elstandart.spb.ru
 )
 
-[1] = cn
-[sn] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Лысенкова Нина Дмитриевна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[33] = Array
+(
+[count] = 0
+[dn] = CN=Мосичева Людмила Ивановна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[34] = Array
+(
+[count] = 0
+[dn] = CN=Понамарева Вера Михайловна,OU=110 - Отдел стандартизации и информационного обслуживания,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[35] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Заболотская Мария
+[0] = osme35@yandex.ru
 )
 
-[2] = sn
-[distinguishedname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Салова Елена Владимировна,OU=140 - Отдел сертификации систем менеджмента качества,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[36] = Array
+(
+[count] = 0
+[dn] = CN=Кибардина Татьяна Леонидовна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[37] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = CN=Заболотская Мария Викторовна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+[0] = itkin@elstandart.spb.ru
 )
 
-[3] = distinguishedname
-[instancetype] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Иткин Павел Михайлович,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[38] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 4
+[0] = asner@elstandart.spb.ru
 )
 
-[4] = instancetype
-[whencreated] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Аснер Анна Лазаревна,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[39] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 20090825122501.0Z
+[0] = titova@elstandart.spb.ru
 )
 
-[5] = whencreated
-[whenchanged] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Титова Надежда Александровна,OU=02 - Отдел кадров,DC=elstandart,DC=spb,DC=ru
+)
+
+[40] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 20161027085805.0Z
+[0] = changli@elstandart.spb.ru
 )
 
-[6] = whenchanged
-[displayname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Чангли Игорь Михайлович,OU=220 - Отдел научно-производственной деятельности,DC=elstandart,DC=spb,DC=ru
+)
+
+[41] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Заболотская Мария Викторовна
+[0] = polina@elstandart.spb.ru
 )
 
-[7] = displayname
-[usncreated] = Array
-(
+[0] = mail
 [count] = 1
-[0] = 44057
+[dn] = CN=Иванова Аполинария Алексеевна,OU=07 - Научно-технический отдел,DC=elstandart,DC=spb,DC=ru
 )
 
-[8] = usncreated
-[memberof] = Array
+[42] = Array
 (
-[count] = 7
-[0] = CN=Доступ к папке Регистрация счетов и счетов-фактур ЭС,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[1] = CN=Доступ к серверу терминалов 1С Электронстандарт,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[2] = CN=Доступ к папке 1С - АНО,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[3] = CN=отдел 131,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
-[4] = CN=1С Бухгалтерия (АНО),OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[5] = CN=Регистрация договоров,OU=Группы прав доступа,DC=elstandart,DC=spb,DC=ru
-[6] = CN=НТК-100,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+[count] = 0
+[dn] = CN=Тюшина Вера Евгеньевна,OU=140 - Отдел сертификации систем менеджмента качества,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
 )
 
-[9] = memberof
-[usnchanged] = Array
+[43] = Array
 (
-[count] = 1
-[0] = 430477294
-)
-
-[10] = usnchanged
-[name] = Array
-(
-[count] = 1
-[0] = Заболотская Мария Викторовна
-)
-
-[11] = name
-[objectguid] = Array
-(
-[count] = 1
-[0] = �\��b�J��۲��6V
-)
-
-[12] = objectguid
-[useraccountcontrol] = Array
-(
-[count] = 1
-[0] = 66050
-)
-
-[13] = useraccountcontrol
-[badpwdcount] = Array
-(
-[count] = 1
-[0] = 763
-)
-
-[14] = badpwdcount
-[codepage] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[15] = codepage
-[countrycode] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[16] = countrycode
-[badpasswordtime] = Array
-(
-[count] = 1
-[0] = 131220284415823482
-)
-
-[17] = badpasswordtime
-[lastlogoff] = Array
-(
-[count] = 1
-[0] = 0
-)
-
-[18] = lastlogoff
-[lastlogon] = Array
-(
-[count] = 1
-[0] = 131220236482385982
-)
-
-[19] = lastlogon
-[pwdlastset] = Array
-(
-[count] = 1
-[0] = 130931039285818631
-)
-
-[20] = pwdlastset
-[primarygroupid] = Array
-(
-[count] = 1
-[0] = 513
-)
-
-[21] = primarygroupid
-[objectsid] = Array
-(
-[count] = 1
-[0] = ���8�c.�+��
-)
-
-[22] = objectsid
-[accountexpires] = Array
-(
-[count] = 1
-[0] = 9223372036854775807
-)
-
-[23] = accountexpires
-[logoncount] = Array
-(
-[count] = 1
-[0] = 9432
-)
-
-[24] = logoncount
-[samaccountname] = Array
-(
-[count] = 1
-[0] = m.zabolotskaya
-)
-
-[25] = samaccountname
-[samaccounttype] = Array
-(
-[count] = 1
-[0] = 805306368
-)
-
-[26] = samaccounttype
-[userprincipalname] = Array
-(
-[count] = 1
-[0] = m.zabolotskaya@elstandart.spb.ru
-)
-
-[27] = userprincipalname
-[objectcategory] = Array
-(
-[count] = 1
-[0] = CN=Person,CN=Schema,CN=Configuration,DC=elstandart,DC=spb,DC=ru
-)
-
-[28] = objectcategory
-[dscorepropagationdata] = Array
-(
-[count] = 1
-[0] = 16010101000000.0Z
-)
-
-[29] = dscorepropagationdata
 [mail] = Array
 (
 [count] = 1
 [0] = mfrolova@elstandart.spb.ru
 )
 
-[30] = mail
-[count] = 31
+[0] = mail
+[count] = 1
 [dn] = CN=Заболотская Мария Викторовна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
 )
 
-[6] = Array
+[44] = Array
 (
-[objectclass] = Array
-(
-[count] = 4
-[0] = top
-[1] = person
-[2] = organizationalPerson
-[3] = user
+[count] = 0
+[dn] = CN=Щетинина Валентина Александровна,OU=АНО \"НТЦИС\"  ЭС\",DC=elstandart,DC=spb,DC=ru
 )
 
-[0] = objectclass
-[cn] = Array
+[45] = Array
 (
-[count] = 1
-[0] = Аскерко Николай Владимирович
+[count] = 0
+[dn] = CN=Бабкина Татьяна Яковлевна,OU=АНО \"НТЦИС\"  ЭС\",DC=elstandart,DC=spb,DC=ru
 )
 
-[1] = cn
-[sn] = Array
+[46] = Array
 (
-[count] = 1
-[0] = Аскерко Николай Владимирович
+[count] = 0
+[dn] = CN=Васильева Людмила Викторовна,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
 )
 
-[2] = sn
-[description] = Array
+[47] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Главный инженер
+[0] = alex-victor@elstandart.spb.ru
 )
 
-[3] = description
-[distinguishedname] = Array
-(
+[0] = mail
 [count] = 1
-[0] = CN=Аскерко Николай Владимирович,OU=Феррит-Домен,DC=elstandart,DC=spb,DC=ru
+[dn] = CN=Александров Виктор Александрович,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
 )
 
-[4] = distinguishedname
-[instancetype] = Array
+[48] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 4
+[0] = tan@elstandart.spb.ru
 )
 
-[5] = instancetype
-[whencreated] = Array
-(
+[0] = mail
 [count] = 1
-[0] = 20090827105656.0Z
+[dn] = CN=Лукица Наталья Дмитриевна,OU=Редакция,DC=elstandart,DC=spb,DC=ru
 )
 
-[6] = whencreated
-[whenchanged] = Array
+[49] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = 20160701113206.0Z
+[0] = askerko@elstandart.spb.ru
 )
 
-[7] = whenchanged
-[displayname] = Array
+[0] = mail
+[count] = 1
+[dn] = CN=Аскерко Николай Владимирович,OU=Феррит-Домен,DC=elstandart,DC=spb,DC=ru
+)
+
+[50] = Array
+(
+[count] = 0
+[dn] = CN=Коробчинская Наталия Михайловна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[51] = Array
+(
+[mail] = Array
 (
 [count] = 1
-[0] = Аскерко Николай Владимирович
+[0] = e.m.ilina@elstandart.spb.ru
 )
+
+[0] = mail
+[count] = 1
+[dn] = CN=Ильина Елена Михайловна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[52] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = lwr@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Изюмченко Александр Александрович,OU=19 - Юридический отдел,DC=elstandart,DC=spb,DC=ru
+)
+
+[53] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = gamal@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Гамаль Людмила Алексеевна,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[54] = Array
+(
+[count] = 0
+[dn] = CN=backup,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[55] = Array
+(
+[count] = 0
+[dn] = CN=Астафьева Светлана Михайловна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[56] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = s.s.babich@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Бабич Сергей Степанович,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[57] = Array
+(
+[count] = 0
+[dn] = CN=Боднар Наталья Антоновна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[58] = Array
+(
+[count] = 0
+[dn] = CN=Вебер Татьяна Владимировна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[59] = Array
+(
+[count] = 0
+[dn] = CN=Григорьев Павел Анатольевич,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[60] = Array
+(
+[count] = 0
+[dn] = CN=Дружинин Павел Анатольевич,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[61] = Array
+(
+[count] = 0
+[dn] = CN=Завацкая Надежда Павловна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[62] = Array
+(
+[count] = 0
+[dn] = CN=Ишакова Надежда Петровна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[63] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = nimaloletova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Малолетова Нина Ивановна,OU=10 - Отдел метрологического обеспечения и технического контроля,DC=elstandart,DC=spb,DC=ru
+)
+
+[64] = Array
+(
+[count] = 0
+[dn] = CN=Наборов Анатолий Владимирович,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[65] = Array
+(
+[count] = 0
+[dn] = CN=Наборов Дмитрий Владимирович,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[66] = Array
+(
+[count] = 0
+[dn] = CN=Пластун Ирина Николаевна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[67] = Array
+(
+[count] = 0
+[dn] = CN=Погребная Марина Александровна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[68] = Array
+(
+[count] = 0
+[dn] = CN=Рогов Олег Михайлович,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[69] = Array
+(
+[count] = 0
+[dn] = CN=Смирнова Светлана Николаевна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[70] = Array
+(
+[count] = 0
+[dn] = CN=Степанов Вячеслав Александров,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[71] = Array
+(
+[count] = 0
+[dn] = CN=Туровцева Татьяна Вячеславовн,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[72] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = matveeva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Матвеева Людмила Александровна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[73] = Array
+(
+[count] = 0
+[dn] = CN=Страхилевич Элиза Ефимовна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[74] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = torchal@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Торчаловская Марина Викторовна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[75] = Array
+(
+[count] = 0
+[dn] = CN=Иванов Сергей Александрович,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[76] = Array
+(
+[count] = 0
+[dn] = CN=Вихрова Тамара Николаевна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[77] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = n.i.andreeva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Андреева Наталья Ивановна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[78] = Array
+(
+[count] = 0
+[dn] = CN=Савикова Елена Павловна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[79] = Array
+(
+[count] = 0
+[dn] = CN=Лебедева Надежда Алексеевна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[80] = Array
+(
+[count] = 0
+[dn] = CN=Панкратова Екатерина Рюриковна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[81] = Array
+(
+[count] = 0
+[dn] = CN=Паршина Надежда Львовна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[82] = Array
+(
+[count] = 0
+[dn] = CN=Матвеева Евгения Борисовна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[83] = Array
+(
+[count] = 0
+[dn] = CN=Терентьева Любовь Львовна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[84] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = pogrebova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Погребова Елена Игоревна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[85] = Array
+(
+[count] = 0
+[dn] = CN=Кузьмина Юлия Владимировна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[86] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = yamshchikovyua@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Ямщиков Юрий Анатольевич,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[87] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = menshik@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Дубова Инна Евгеньевна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[88] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = Laktionov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Лактионов Андрей Владимирович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[89] = Array
+(
+[count] = 0
+[dn] = CN=Рябинина  Майя  Ивановна,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[90] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = luba@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Михайлова  Любовь Михайловна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[91] = Array
+(
+[count] = 0
+[dn] = CN=Кирпичникова  Александра  Александровна,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[92] = Array
+(
+[count] = 0
+[dn] = CN=test,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[93] = Array
+(
+[count] = 0
+[dn] = CN=test2,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[94] = Array
+(
+[count] = 0
+[dn] = CN=Администратор АСУ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[95] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = grigoryev@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Григорьев Андрей Петрович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[96] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = andreev@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Андреев Алексей Анатольевич,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[97] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = i.a.martynov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Мартынов Иван Александрович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[98] = Array
+(
+[count] = 0
+[dn] = CN=Самигуллин Альберт Индусович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[99] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = okaurio@gmail.com
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Серов Сергей Владимирович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[100] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = valgatchina60@yandex.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Канюшкин Валентин Васильевич,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[101] = Array
+(
+[count] = 0
+[dn] = CN=Леонтьев Алексей Васильевич,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[102] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = paimtsev@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Паимцев Анатолий Александрович,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[103] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = irvik@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Емельянова Ирина Викторовна,OU=135 - Лаборатория анализа отказов,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[104] = Array
+(
+[count] = 0
+[dn] = CN=Малютенкова Светлана Эдуардовна,OU=135 - Лаборатория анализа отказов,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[105] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = baturin@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Батурин Антон Владимирович,OU=00 - Руководство института,DC=elstandart,DC=spb,DC=ru
+)
+
+[106] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = e.n.askerko@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Аскерко Екатерина Николаевна,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[107] = Array
+(
+[count] = 0
+[dn] = CN=Рыбак Владислав Валерьевич,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[108] = Array
+(
+[count] = 0
+[dn] = CN=Грибин Кирил Аркадьевич,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[109] = Array
+(
+[count] = 0
+[dn] = CN=Ковтун Артем Юрьевич,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[110] = Array
+(
+[count] = 0
+[dn] = CN=Соколов Виктор Анатольевич,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[111] = Array
+(
+[count] = 0
+[dn] = CN=Вайзеров Олег Владимирович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[112] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = semenov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Семенов Александр Викторович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[113] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = microwave@mail.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Синяев Юрий Александрович,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[114] = Array
+(
+[count] = 0
+[dn] = CN=Григорьев Сергей Андреевич,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[115] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = mitin@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Митин Евгений Викторович,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[116] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = zaharov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Захаров Александр Сергеевич,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[117] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = ekudriavzeva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Кудрявцева Елена Васильевна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[118] = Array
+(
+[count] = 0
+[dn] = CN=Громов  Владимир Владимирович,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[119] = Array
+(
+[count] = 0
+[dn] = CN=Захарова Елена Анатольевна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[120] = Array
+(
+[count] = 0
+[dn] = CN=Иванова  Ольга Евгеньевна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[121] = Array
+(
+[count] = 0
+[dn] = CN=Легова Лилия Игоревна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[122] = Array
+(
+[count] = 0
+[dn] = CN=Мельникова Светлана Петровна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[123] = Array
+(
+[count] = 0
+[dn] = CN=Минина  Анастасия Борисовна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[124] = Array
+(
+[count] = 0
+[dn] = CN=Мусанова Людмила Ивановна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[125] = Array
+(
+[count] = 0
+[dn] = CN=Паимцева Ольга Алексеевна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[126] = Array
+(
+[count] = 0
+[dn] = CN=Подгайская Мария Павловна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[127] = Array
+(
+[count] = 0
+[dn] = CN=Серова Ольга Анатольевна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[128] = Array
+(
+[count] = 0
+[dn] = CN=Усачев Павел Анатольевич,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[129] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = kozhevin.alexander@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Кожевин Александр Сергеевич,OU=22 - Коммерческий отдел,DC=elstandart,DC=spb,DC=ru
+)
+
+[130] = Array
+(
+[count] = 0
+[dn] = CN=Лель Яна Дмитриевна,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[131] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = berdnikova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Бердникова Галина Васильевна,OU=134 - Лаб про квалиф исп ЭКБ отеч-го пр-ва (вкл биолог исп),OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[132] = Array
+(
+[count] = 0
+[dn] = CN=Пиминова Евгения Александровна,OU=134 - Лаб про квалиф исп ЭКБ отеч-го пр-ва (вкл биолог исп),OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[133] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = malinin@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Малинин Валерий Георгиевич,OU=00 - Руководство института,DC=elstandart,DC=spb,DC=ru
+)
+
+[134] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = gudilina@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Гудилина Татьяна Егоровна,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[135] = Array
+(
+[count] = 0
+[dn] = CN=Карпова Екатерина Александровна,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[136] = Array
+(
+[count] = 0
+[dn] = CN=Бобылева О.Н.,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[137] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = t.a.grigorieva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Григорьева Т.А.,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[138] = Array
+(
+[count] = 0
+[dn] = CN=Ямщикова М.М.,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[139] = Array
+(
+[count] = 0
+[dn] = CN=Ванин Владимир Иванович,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[140] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = ivanova.i.n@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Иванова Инна Николаевна,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[141] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = evkir@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Кириллова Елена Владимировна,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[142] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = a.a.sinyaeva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Синяева Анна Алексеевна,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[143] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = evkalinin@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Калинин Егор Викторович,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[144] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = odit@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Одит Валерий Александрович,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[145] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = iborisik@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Борисик Иван Алексеевич,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[146] = Array
+(
+[count] = 0
+[dn] = CN=Прелуцкий Виталий Игоревич,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[147] = Array
+(
+[count] = 0
+[dn] = CN=Пировских Д.Г.,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[148] = Array
+(
+[count] = 0
+[dn] = CN=Новичкова Людмила Владимировна,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[149] = Array
+(
+[count] = 0
+[dn] = CN=Испытательный центр ком. 201 к. С,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[150] = Array
+(
+[count] = 0
+[dn] = CN=Турицина Татьяна Анатольевна,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[151] = Array
+(
+[count] = 0
+[dn] = CN=Первицкая Светлана Вячеслававна,OU=132 - Лаб разраб прог обесп и пров серт исп ЭКБ иностран пр-ва,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[152] = Array
+(
+[count] = 0
+[dn] = CN=Крылова Татьяна Николаевна,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[153] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = pilipenkovg@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Пилипенко Владимир Григорьевич,OU=137 - Лаб качества и испытаний электронных модулей,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[154] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = anshmidt@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Аншмидт Дмитрий Евгеньевич,OU=137 - Лаб качества и испытаний электронных модулей,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[155] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = pikina@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Пикина Наталия Николаевна,OU=137 - Лаб качества и испытаний электронных модулей,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[156] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = alserpr@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Преображенский Александр Сергеевич,OU=137 - Лаб качества и испытаний электронных модулей,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[157] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = ulpe@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Ульпе Михаил Леонидович,OU=137 - Лаб качества и испытаний электронных модулей,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[158] = Array
+(
+[count] = 0
+[dn] = CN=Куликов И.В.,OU=121 - Лаб орг-метод и науч-исслед раб в обл надежности ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[159] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = wildtgrube@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Вильдтгрубе Николай Юрьевич,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[160] = Array
+(
+[count] = 0
+[dn] = CN=Ренгено-телевизионный анализ,OU=135 - Лаборатория анализа отказов,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[161] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = laptevass@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Лаптева Стелла Сергеевна,OU=07 - Научно-технический отдел,DC=elstandart,DC=spb,DC=ru
+)
+
+[162] = Array
+(
+[count] = 0
+[dn] = CN=Малечкина Татьяна Николаевна,OU=Бухгалтерия,OU=Феррит-Домен,DC=elstandart,DC=spb,DC=ru
+)
+
+[163] = Array
+(
+[count] = 0
+[dn] = CN=Сидоренко Александр Алексеевич,OU=133 - Лаб пр-ия отбрак исп ЭКБ отече производства,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[164] = Array
+(
+[count] = 0
+[dn] = CN=Жирякова Анна Александровна,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[165] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = t.v.syanova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Сьянова Татьяна Валерьевна,OU=02 - Отдел кадров,DC=elstandart,DC=spb,DC=ru
+)
+
+[166] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = e.a.zueva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Зуева Алла Васильевна,OU=150 - Отдел  информационного обеспечения предприятий,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[167] = Array
+(
+[count] = 0
+[dn] = CN=Смирнов Евгений Александрович,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[168] = Array
+(
+[count] = 0
+[dn] = CN=Швец Владимир Ильич,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[169] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = i.v.baranova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Баранова Ирина Викторовна,OU=18 - Отдел охраны труда,DC=elstandart,DC=spb,DC=ru
+)
+
+[170] = Array
+(
+[count] = 0
+[dn] = CN=Мишин Сергей Анатольевич,OU=Персонал при руководстве,DC=elstandart,DC=spb,DC=ru
+)
+
+[171] = Array
+(
+[count] = 0
+[dn] = CN=Марков Михаил Витальевич,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[172] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = v.v.petukhova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Петухова Виктория Валерьевна,OU=135 - Лаборатория анализа отказов,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[173] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = lvkaterina@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Лубянская Екатерина Вадимовна,OU=04 - Планово-Экономический отдел,DC=elstandart,DC=spb,DC=ru
+)
+
+[174] = Array
+(
+[count] = 0
+[dn] = CN=Соколова Елена Дмитриевна,OU=12 - Группа материально-технического обеспечения,DC=elstandart,DC=spb,DC=ru
+)
+
+[175] = Array
+(
+[count] = 0
+[dn] = CN=Гудкович Ирина Викторовна,OU=НПП,DC=elstandart,DC=spb,DC=ru
+)
+
+[176] = Array
+(
+[count] = 0
+[dn] = CN=Медведев Михаил Сергеевич,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[177] = Array
+(
+[count] = 0
+[dn] = CN=Вебер Сергей Валентинович,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[178] = Array
+(
+[count] = 0
+[dn] = CN=Щичко Денис Григорьевич,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[179] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = tro_va@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Трофимова Влентина Антоновна,OU=11 - Отдел комплексного  обслуживания,DC=elstandart,DC=spb,DC=ru
+)
+
+[180] = Array
+(
+[count] = 0
+[dn] = CN=Погребова Елена Владимировна,OU=135 - Лаборатория анализа отказов,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[181] = Array
+(
+[count] = 0
+[dn] = CN=Первицкий Александр Геннадьевич,OU=135 - Лаборатория анализа отказов,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[182] = Array
+(
+[count] = 0
+[dn] = CN=Яковлева Елена Валерьевна,OU=Расчетный отдел,OU=Феррит-Домен,DC=elstandart,DC=spb,DC=ru
+)
+
+[183] = Array
+(
+[count] = 0
+[dn] = CN=Цыганова Татьяна Ивановна,OU=05 - Бухгалтерия,DC=elstandart,DC=spb,DC=ru
+)
+
+[184] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = k.s.tkachuk@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Ткачук Константин Сергеевич,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[185] = Array
+(
+[count] = 0
+[dn] = CN=Артемьева Г.С.,OU=Архив,DC=elstandart,DC=spb,DC=ru
+)
+
+[186] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = y.b.melnikov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Мельников Юрий Борисович,OU=11 - Отдел комплексного  обслуживания,DC=elstandart,DC=spb,DC=ru
+)
+
+[187] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = kpp@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Алексеев Петр Евгеньевич,OU=11 - Отдел комплексного  обслуживания,DC=elstandart,DC=spb,DC=ru
+)
+
+[188] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = bes@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Беляков Евений Олегович,OU=08 - Отдел информационных технологий,DC=elstandart,DC=spb,DC=ru
+)
+
+[189] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = n.m.karpov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Карпов Николай Михайлович,OU=11 - Отдел комплексного  обслуживания,DC=elstandart,DC=spb,DC=ru
+)
+
+[190] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = n.s.lebedeva@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Лебедева Нина Степановна,OU=10 - Отдел метрологического обеспечения и технического контроля,DC=elstandart,DC=spb,DC=ru
+)
+
+[191] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = i.a.aleksandrovich@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Александрович Ирина Анатольевна,OU=122 - Лаб орган-метод и науч-исслед раб в обл радиац стой ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[192] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = i.v.bistrova@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Быстрова Ирина Викторовна,OU=12 - Группа материально-технического обеспечения,DC=elstandart,DC=spb,DC=ru
+)
+
+[193] = Array
+(
+[count] = 0
+[dn] = CN=Сосновская Юлия Юрьевна,OU=123 - Лаборатория сертификационных испытаний радиационных ЭКБ,OU=120 - Отд разраб мет исп и пр-ия исслед надежн и спецстой ЭКБ,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[194] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = kourov@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Коуров Михаил Сергеевич,OU=136 - Лаб об мех\, климат исп и пр-ия электротермотренировок,OU=130 - Отд квалиф и серт исп ЭКБ отеч и иностран пр-ва,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[195] = Array
+(
+[mail] = Array
+(
+[count] = 1
+[0] = a.v.grigoryev@elstandart.spb.ru
+)
+
+[0] = mail
+[count] = 1
+[dn] = CN=Григорьев Александр Вячеславовович,OU=131 - Сектор мониторинга и план-эконом сопр заказов,OU=100 - НТК,DC=elstandart,DC=spb,DC=ru
+)
+
+[196] = Array
+(
+[count] = 0
+[dn] = CN=Новожилов Анатолий Николаевич,OU=ОПК-3,OU=Феррит-Домен,DC=el

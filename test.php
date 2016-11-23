@@ -38,7 +38,6 @@ if ($ldapconn) {
         print_r($data);
         echo '</pre>';
         ldap_unbind ($ldapconn, $ldaprdn, $ldappass) or die ("Разрыв соединения: ".ldap_error($ldapconn));
-
     }
     else {
         echo "LDAP-привязка не удалась...<br />";
