@@ -1,0 +1,17 @@
+DEBUG   |160711 11:27:45|*** Batching successive steps (nesting level 1)
+DEBUG   |160711 11:27:45|====== Starting Step number 1 ======
+DEBUG   |160711 11:27:45|Kettenrad :: Switching domains
+DEBUG   |160711 11:27:45|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160711 11:27:45|Switching to domain init, class Init
+DEBUG   |160711 11:27:45|Akeeba\Engine\Core\Domain\Init :: New instance
+DEBUG   |160711 11:27:45|Kettenrad :: Ticking the domain object
+DEBUG   |160711 11:27:45|Kettenrad :: Domain object returned; propagating
+DEBUG   |160711 11:27:45|Kettenrad :: Break flag status: YES
+DEBUG   |160711 11:27:45|----- Finished operation 1 ------
+DEBUG   |160711 11:27:45|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160711 11:27:45|====== Finished Step number 1 ======
+DEBUG   |160711 11:27:45|Kettenrad :: Setting the break flag between domains
+DEBUG   |160711 11:27:45|*** Engine steps batching: Break flag detected.
+DEBUG   |160711 11:27:45|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160711 11:27:45|Sleeping for 1999.0341663361 msec, using usleep()
+DEBUG   |160711 11:27:47|Saving Kettenrad instance frontend

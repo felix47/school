@@ -1,0 +1,77 @@
+DEBUG   |160707 14:18:51|*** Batching successive steps (nesting level 1)
+DEBUG   |160707 14:18:51|====== Starting Step number 1 ======
+DEBUG   |160707 14:18:51|Kettenrad :: Switching domains
+DEBUG   |160707 14:18:51|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160707 14:18:51|Switching to domain init, class Init
+DEBUG   |160707 14:18:51|Akeeba\Engine\Core\Domain\Init :: New instance
+DEBUG   |160707 14:18:51|Kettenrad :: Ticking the domain object
+DEBUG   |160707 14:18:51|Kettenrad :: Domain object returned; propagating
+DEBUG   |160707 14:18:51|Kettenrad :: Break flag status: YES
+DEBUG   |160707 14:18:51|----- Finished operation 1 ------
+DEBUG   |160707 14:18:51|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160707 14:18:51|====== Finished Step number 1 ======
+DEBUG   |160707 14:18:51|Kettenrad :: Setting the break flag between domains
+DEBUG   |160707 14:18:51|*** Engine steps batching: Break flag detected.
+DEBUG   |160707 14:18:51|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160707 14:18:51|Sleeping for 1999.2659091949 msec, using usleep()
+DEBUG   |160707 14:18:53|====== Starting Step number 2 ======
+DEBUG   |160707 14:18:53|Kettenrad :: Ticking the domain object
+INFO    |160707 14:18:53|--------------------------------------------------------------------------------
+INFO    |160707 14:18:53|Akeeba Backup 1.9.1 (2016-06-23)
+INFO    |160707 14:18:53|Got backup?
+INFO    |160707 14:18:53|--------------------------------------------------------------------------------
+INFO    |160707 14:18:53|--- System Information ---
+INFO    |160707 14:18:53|PHP Version        :7.0.4-7ubuntu2.1
+INFO    |160707 14:18:53|PHP OS             :Linux
+INFO    |160707 14:18:53|PHP SAPI           :apache2handler
+INFO    |160707 14:18:53|OS Version         :Linux
+INFO    |160707 14:18:53|DB Version         :5.7.12-0ubuntu1.1
+INFO    |160707 14:18:53|Web Server         :Apache/2.4.18 (Ubuntu)
+INFO    |160707 14:18:53|Akeeba Solo version    :1.9.1
+INFO    |160707 14:18:53|Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+INFO    |160707 14:18:53|Safe mode          :
+INFO    |160707 14:18:53|Display errors     :
+INFO    |160707 14:18:53|Error reporting    :E_ERROR | E_WARNING | E_PARSE | E_NOTICE | E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_COMPILE_WARNING | E_USER_ERROR | E_USER_WARNING | E_USER_NOTICE
+INFO    |160707 14:18:53|Error display      :off
+INFO    |160707 14:18:53|Disabled functions :pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,
+INFO    |160707 14:18:53|open_basedir restr.:
+INFO    |160707 14:18:53|Max. exec. time    :30
+INFO    |160707 14:18:53|Memory limit       :128M
+INFO    |160707 14:18:53|Current mem. usage :1574280
+INFO    |160707 14:18:53|GZIP Compression   : available (good)
+INFO    |160707 14:18:53|APATH_BASE         :<root>
+INFO    |160707 14:18:53|Application Path   :<root>/Solo
+INFO    |160707 14:18:53|Installation root  :<root>
+INFO    |160707 14:18:53|Output directory   :<root>/backups
+INFO    |160707 14:18:53|Part size (bytes)  :2147352576
+INFO    |160707 14:18:53|--------------------------------------------------------------------------------
+INFO    |160707 14:18:53|Loaded profile #1
+DEBUG   |160707 14:18:53|Akeeba\Engine\Archiver\Zip :: New instance
+DEBUG   |160707 14:18:53|Chunk size for CRC is now 1048576 bytes
+DEBUG   |160707 14:18:53|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |160707 14:18:53|Expanded template name: site-school-20160707-141853
+DEBUG   |160707 14:18:53|Backup type is now set to 'full'
+DEBUG   |160707 14:18:53|Expanded archive file name: <root>/backups/site-school-20160707-141853.zip
+DEBUG   |160707 14:18:53|Initializing archiver engine
+DEBUG   |160707 14:18:53|Akeeba\Engine\Archiver\Zip :: initialize - archive <root>/backups/site-school-20160707-141853.zip
+INFO    |160707 14:18:53|Akeeba\Engine\Archiver\Zip :: Split ZIP creation enabled
+DEBUG   |160707 14:18:53|Akeeba\Engine\Archiver\Zip :: CntDir Tempfile = <root>/backups/akzcddWwjgj
+DEBUG   |160707 14:18:53|Akeeba\Engine\Archiver\Zip :: Killing old archive
+DEBUG   |160707 14:18:53|Updating multipart status to 1
+DEBUG   |160707 14:18:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |160707 14:18:53|Kettenrad :: Break flag status: no
+DEBUG   |160707 14:18:53|----- Finished operation 1 ------
+DEBUG   |160707 14:18:53|Kettenrad :: Ticking the domain object
+DEBUG   |160707 14:18:53|Kettenrad :: Domain object returned; propagating
+DEBUG   |160707 14:18:53|Kettenrad :: Break flag status: no
+DEBUG   |160707 14:18:53|----- Finished operation 2 ------
+DEBUG   |160707 14:18:53|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160707 14:18:53|Kettenrad :: Domain 'init' has finished.
+DEBUG   |160707 14:18:53|====== Finished Step number 2 ======
+DEBUG   |160707 14:18:53|Kettenrad :: Setting the break flag between domains
+DEBUG   |160707 14:18:53|*** Engine steps batching: Break flag detected.
+DEBUG   |160707 14:18:53|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160707 14:18:53|No need to sleep; execution time: 2033.5590839386 msec; min. exec. time: 2000 msec
+DEBUG   |160707 14:18:53|Saving Kettenrad instance frontend
+DEBUG   |160707 14:19:25|Kettenrad :: Attempting to load from database (frontend.id9) [frontend.id9]
+DEBUG   |160707 14:19:25| -- Loaded stored Akeeba Factory (frontend.id9) [frontend.id9]
