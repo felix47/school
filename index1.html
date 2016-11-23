@@ -1,0 +1,12 @@
+<div class="page-header well bs-component">
+    <form method="post">
+        <legend>Создание ваучера</legend>
+        <input type="hidden" value="2b537d60d38d79bfe203effa5028ea28" name="key">
+        <input type="hidden" value="1" name="voucher_type"><br />
+        Номинал ваучера (в часаx)* <input class="form-control" type="text" name="amount" required><br />
+        <input type="hidden" value="100" name="speed"><br />
+        Срок действия ваучера (в днях) <input  class="form-control"type="text" name="expire" required><br />
+        Персональные данные (ФИО): <textarea class="form-control" type="text" rows="3" name="data" required></textarea><br />
+        <button class="btn btn-primary" type="submit" value="Отправить">Создать</button>
+    </form>
+</div>

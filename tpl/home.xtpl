@@ -1,5 +1,5 @@
 <!-- BEGIN: home -->
-<div class="container-fluid">
+<div class="container">
     <form method="POST" novalidate>
     <div class="row">
         <div class="col-md-8">
@@ -38,6 +38,7 @@
                     var dateFormat = "mm/dd/yy",
                             from = $( "#from" )
                                     .datepicker({
+                                        dateFormat: "yy-mm-dd",
                                         defaultDate: "+1w",
                                         changeMonth: true,
                                         numberOfMonths: 1
@@ -46,6 +47,7 @@
                                         to.datepicker( "option", "minDate", getDate( this ) );
                                     }),
                             to = $( "#to" ).datepicker({
+                                dateFormat: "yy-mm-dd",
                                 defaultDate: "+1w",
                                 changeMonth: true,
                                 numberOfMonths: 1
@@ -61,15 +63,15 @@
                         } catch( error ) {
                             date = null;
                         }
-
                         return date;
                     }
                 } );
             </script>
             <form action="/page/home.php" method="post">
-            <input id="from" type="text" name="from">
-            <input id="to" type="text" name="to">
-            <input type="submit">
+            <input id="from" name="from" type="text">
+                <input id="to" name="to" type="text">
+                <!--<input id="to" name="to" type="text">-->
+                <input type="submit">
             </form>
         </div>
     </div>

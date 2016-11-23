@@ -1,6 +1,6 @@
         <!-- BEGIN: menu -->
-        <div class="navbar navbar-default">
-         <div class="">
+        <div class="navbar navbar-default" id="navigation">
+         <div class=" container">
              <div class="navbar-header">
                  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
                      <span class="icon-bar"></span>

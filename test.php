@@ -27,8 +27,9 @@ if ($ldapconn) {
     if ($ldapbind) {
         $dn = "dc=elstandart,dc=spb,dc=ru";
         $attributes = array("*");
+        //Заблокированные объекты
+        //$filter = "(&(objectCategory=person)(objectClass=user)(userAccountControl:1.2.840.113556.1.4.803:=2))";
         $filter = "(&(objectCategory=person)(objectClass=user)(userAccountControl:1.2.840.113556.1.4.803:=2))";
-
         $result = ldap_search($ldapconn,$dn,$filter,$attributes) or die ("Error in search query: ".ldap_error($ldapconn));
         $data = ldap_get_entries($ldapconn, $result);
         echo $data["count"]." записей возвращено\n <br />";

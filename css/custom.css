@@ -5,10 +5,20 @@
     font-style: normal;
 }
 body {
+    min-height: 100vh;
     font-family: 'AleksandraC';
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dae0ea), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(top, #dae0ea 0%, #fff 100%);
+    background: -o-linear-gradient(top, #dae0ea 0%, #fff 100%);
+    background: -ms-linear-gradient(top, #dae0ea 0%, #fff 100%);
+    background: linear-gradient(to bottom, #dae0ea 0%, #fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae0ea', endColorstr='#fff', GradientType=0 );
 }
 .logo img {
     width: 140px;
+}
+header {
+    background: #33363E;
 }
 .ui-datepicker {
     background-color: #fff;
@@ -103,4 +113,13 @@ body {
 }
 .ui-datepicker-today {
 
+}
+#navigation.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.table {
+    margin-bottom: 0px;
 }

@@ -17,11 +17,13 @@ function content_home($db){
             header("Location: /");
         }
     }
-    elseif(isset($_POST['from']) && $_POST['to']){
+    elseif(isset($_POST['from'])){
             $a = $_POST['from'];
             $b = $_POST['to'];
             echo "$a $b";
-        $Query = mysqli_query($db, 'SELECT * FROM content WHERE date_create > "2016-08-19 00:00:00" AND date_create < "2016-08-19 23:59:59"');
+        $Query = mysqli_query($db, 'SELECT * FROM content WHERE date_create > "'.$a.'" AND date_create < "'.$b.'" ORDER BY id DESC');
+        unset($_POST['from']);
+        unset($_POST['to']);
         while ($row = mysqli_fetch_assoc($Query)) {
             $xtpl->assign('data', $row);
             $xtpl->parse('home.row');
